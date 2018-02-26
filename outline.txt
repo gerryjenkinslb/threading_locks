@@ -1,0 +1,18 @@
+
+When is a != a in a program (python specifically)?
+
+The expression a != a is not always true in programming.
+Also the expression:  a == 1 and a == 2 and a == 3 can be true
+
+This is can happen when the variable a is a shared resource 
+with another program thread
+
+1. Demonstrate problem code:  
+   (a_not_eq_a.py)
+
+2. Show disassembly of python code to explain whats happening
+   (dis_a_not_eq_a.py)
+
+3. Introduce the python thread lock to prevent this
+   (dis_a_not_eq_a2.py)
+
